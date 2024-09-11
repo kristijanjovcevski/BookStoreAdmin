@@ -9,47 +9,47 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BookStoreAdminApplication
 build_property.RootNamespace = BookStoreAdminApplication
-build_property.ProjectDir = C:\Users\UserWin\Documents\ProjectFINKI\ProjectIS\BookStoreAdminApplication\BookStoreAdminApplication\
+build_property.ProjectDir = D:\fakultet\IS\BookStoreAdminApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\UserWin\Documents\ProjectFINKI\ProjectIS\BookStoreAdminApplication\BookStoreAdminApplication
+build_property.MSBuildProjectDirectory = D:\fakultet\IS\BookStoreAdminApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/UserWin/Documents/ProjectFINKI/ProjectIS/BookStoreAdminApplication/BookStoreAdminApplication/Views/Home/Index.cshtml]
+[D:/fakultet/IS/BookStoreAdminApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/UserWin/Documents/ProjectFINKI/ProjectIS/BookStoreAdminApplication/BookStoreAdminApplication/Views/Home/Privacy.cshtml]
+[D:/fakultet/IS/BookStoreAdminApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/UserWin/Documents/ProjectFINKI/ProjectIS/BookStoreAdminApplication/BookStoreAdminApplication/Views/Order/Details.cshtml]
+[D:/fakultet/IS/BookStoreAdminApp/Views/Order/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcRGV0YWlscy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/UserWin/Documents/ProjectFINKI/ProjectIS/BookStoreAdminApplication/BookStoreAdminApplication/Views/Order/Index.cshtml]
+[D:/fakultet/IS/BookStoreAdminApp/Views/Order/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3JkZXJcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/UserWin/Documents/ProjectFINKI/ProjectIS/BookStoreAdminApplication/BookStoreAdminApplication/Views/Shared/Error.cshtml]
+[D:/fakultet/IS/BookStoreAdminApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/UserWin/Documents/ProjectFINKI/ProjectIS/BookStoreAdminApplication/BookStoreAdminApplication/Views/Shared/_ValidationScriptsPartial.cshtml]
+[D:/fakultet/IS/BookStoreAdminApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/UserWin/Documents/ProjectFINKI/ProjectIS/BookStoreAdminApplication/BookStoreAdminApplication/Views/_ViewImports.cshtml]
+[D:/fakultet/IS/BookStoreAdminApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/UserWin/Documents/ProjectFINKI/ProjectIS/BookStoreAdminApplication/BookStoreAdminApplication/Views/_ViewStart.cshtml]
+[D:/fakultet/IS/BookStoreAdminApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/UserWin/Documents/ProjectFINKI/ProjectIS/BookStoreAdminApplication/BookStoreAdminApplication/Views/Shared/_Layout.cshtml]
+[D:/fakultet/IS/BookStoreAdminApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-iy2xt31nq3

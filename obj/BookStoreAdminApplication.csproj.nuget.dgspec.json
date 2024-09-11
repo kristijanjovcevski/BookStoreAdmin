@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\UserWin\\Documents\\ProjectFINKI\\ProjectIS\\BookStoreAdminApplication\\BookStoreAdminApplication\\BookStoreAdminApplication.csproj": {}
+    "D:\\fakultet\\IS\\BookStoreAdminApp\\BookStoreAdminApplication.csproj": {}
   },
   "projects": {
-    "C:\\Users\\UserWin\\Documents\\ProjectFINKI\\ProjectIS\\BookStoreAdminApplication\\BookStoreAdminApplication\\BookStoreAdminApplication.csproj": {
+    "D:\\fakultet\\IS\\BookStoreAdminApp\\BookStoreAdminApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\UserWin\\Documents\\ProjectFINKI\\ProjectIS\\BookStoreAdminApplication\\BookStoreAdminApplication\\BookStoreAdminApplication.csproj",
+        "projectUniqueName": "D:\\fakultet\\IS\\BookStoreAdminApp\\BookStoreAdminApplication.csproj",
         "projectName": "BookStoreAdminApplication",
-        "projectPath": "C:\\Users\\UserWin\\Documents\\ProjectFINKI\\ProjectIS\\BookStoreAdminApplication\\BookStoreAdminApplication\\BookStoreAdminApplication.csproj",
-        "packagesPath": "C:\\Users\\UserWin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\UserWin\\Documents\\ProjectFINKI\\ProjectIS\\BookStoreAdminApplication\\BookStoreAdminApplication\\obj\\",
+        "projectPath": "D:\\fakultet\\IS\\BookStoreAdminApp\\BookStoreAdminApplication.csproj",
+        "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
+        "outputPath": "D:\\fakultet\\IS\\BookStoreAdminApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\UserWin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,6 +22,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -81,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.205/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
