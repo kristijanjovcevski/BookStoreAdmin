@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\fakultet\\IS\\BookStoreAdminApp\\BookStoreAdminApplication.csproj": {}
+    "C:\\Users\\Andrej\\Desktop\\PULL2\\BookStoreAdminApplication.csproj": {}
   },
   "projects": {
-    "D:\\fakultet\\IS\\BookStoreAdminApp\\BookStoreAdminApplication.csproj": {
+    "C:\\Users\\Andrej\\Desktop\\PULL2\\BookStoreAdminApplication.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\fakultet\\IS\\BookStoreAdminApp\\BookStoreAdminApplication.csproj",
+        "projectUniqueName": "C:\\Users\\Andrej\\Desktop\\PULL2\\BookStoreAdminApplication.csproj",
         "projectName": "BookStoreAdminApplication",
-        "projectPath": "D:\\fakultet\\IS\\BookStoreAdminApp\\BookStoreAdminApplication.csproj",
-        "packagesPath": "C:\\Users\\vladi\\.nuget\\packages\\",
-        "outputPath": "D:\\fakultet\\IS\\BookStoreAdminApp\\obj\\",
+        "projectPath": "C:\\Users\\Andrej\\Desktop\\PULL2\\BookStoreAdminApplication.csproj",
+        "packagesPath": "C:\\Users\\Andrej\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Andrej\\Desktop\\PULL2\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\vladi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Andrej\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -82,7 +85,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
