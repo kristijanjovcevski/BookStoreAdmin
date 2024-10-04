@@ -18,7 +18,7 @@ namespace BookStoreAdminApplication.Controllers
         public IActionResult Index()
         {
             HttpClient client = new HttpClient();
-            string URL = "http://localhost:5173/api/Admin/GetAllOrders";
+            string URL = "https://bookstoreweb20240918115617.azurewebsites.net/api/Admin/GetAllOrders";
             HttpResponseMessage response = client.GetAsync(URL).Result;
 
             var data = response.Content.ReadAsAsync<List<Order>>().Result;
@@ -28,7 +28,7 @@ namespace BookStoreAdminApplication.Controllers
         public IActionResult Details(Guid Id)
         {
             HttpClient client = new HttpClient();
-            string URL = "http://localhost:5173/api/Admin/GetDetailsForOrder";
+            string URL = "https://bookstoreweb20240918115617.azurewebsites.net/api/Admin/GetDetailsForOrder";
             var model = new
             {
                 Id = Id
@@ -44,7 +44,7 @@ namespace BookStoreAdminApplication.Controllers
         public FileContentResult CreateInvoice(Guid Id)
         {
             HttpClient client = new HttpClient();
-            string URL = "http://localhost:5173/api/Admin/GetDetailsForOrder";
+            string URL = "https://bookstoreweb20240918115617.azurewebsites.net/api/Admin/GetDetailsForOrder";
             var model = new
             {
                 Id = Id
@@ -55,7 +55,18 @@ namespace BookStoreAdminApplication.Controllers
 
             var data = response.Content.ReadAsAsync<Order>().Result;
 
-            var templatePath = Path.Combine(Directory.GetCurrentDirectory(), "Invoice.docx");
+            //var templatePath = Path.Combine(Directory.GetCurrentDirectory(), "Invoice.docx");
+
+
+            string homePath = Environment.GetEnvironmentVariable("HOME");
+
+
+            string appDataPath = Path.Combine(homePath, "site", "wwwroot","wwwroot","files");
+
+
+            var templatePath = Path.Combine(appDataPath, "Invoice.docx");
+
+
             var document = DocumentModel.Load(templatePath);
             document.Content.Replace("{{OrderNumber}}", data.Id.ToString());
             document.Content.Replace("{{UserName}}", data.Owner.UserName);
@@ -89,7 +100,7 @@ namespace BookStoreAdminApplication.Controllers
                 worksheet.Cell(1, 2).Value = "Customer Email";
 
                 HttpClient client = new HttpClient();
-                string URL = "http://localhost:5173/api/Admin/GetAllOrders";
+                string URL = "https://bookstoreweb20240918115617.azurewebsites.net/api/Admin/GetAllOrders";
                 HttpResponseMessage response = client.GetAsync(URL).Result;
 
                 var data = response.Content.ReadAsAsync<List<Order>>().Result;

@@ -20,7 +20,11 @@ namespace BookStoreAdminApplication.Controllers
 
             public IActionResult ImportUsers(IFormFile file)
             {
-                string pathToUpload = $"{Directory.GetCurrentDirectory()}\\files\\{file.FileName}";
+                string homePath = Environment.GetEnvironmentVariable("HOME");
+
+                string appDataPath = Path.Combine(homePath, "site", "wwwroot", "wwwroot", "files");
+
+                string pathToUpload = Path.Combine(appDataPath, file.FileName);
 
                 using (FileStream fileStream = System.IO.File.Create(pathToUpload))
                 {
@@ -30,7 +34,7 @@ namespace BookStoreAdminApplication.Controllers
 
                 List<User> users = getAllUsersFromFile(file.FileName);
                 HttpClient client = new HttpClient();
-                string URL = "http://localhost:5173/api/Admin/ImportAllUsers";
+                string URL = "https://bookstoreweb20240918115617.azurewebsites.net/api/Admin/ImportAllUsers";
 
                 HttpContent content = new StringContent(JsonConvert.SerializeObject(users), Encoding.UTF8, "application/json");
 
@@ -45,7 +49,19 @@ namespace BookStoreAdminApplication.Controllers
             private List<User> getAllUsersFromFile(string fileName)
             {
                 List<User> users = new List<User>();
-                string filePath = $"{Directory.GetCurrentDirectory()}\\files\\{fileName}";
+
+                //string filePath = Path.Combine(@"D:\home\site\wwwroot\files\", fileName);
+    
+                string homePath = Environment.GetEnvironmentVariable("HOME");
+
+                string appDataPath = Path.Combine(homePath, "site", "wwwroot","wwwroot","files");
+
+
+
+
+                string filePath = Path.Combine(appDataPath, fileName);
+
+
 
                 System.Text.Encoding.RegisterProvider(System.Text.CodePagesEncodingProvider.Instance);
 
